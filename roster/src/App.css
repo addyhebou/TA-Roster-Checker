@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 238px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+  margin: 3vh;
+
+  list-style: none;
+  border: solid 1px #000;
+  font-family: 'SF-Pro-Display-Bold';
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0em;
+  text-transform: none;
+  color: #7a7a7a;
+
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+img {
+  width: 20vh;
+}
